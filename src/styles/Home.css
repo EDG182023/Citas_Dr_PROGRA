@@ -1,0 +1,47 @@
+.home-section {
+  height: 60vh; /* pantalla completa */
+  background: url("https://clinicamayor.com/wp-content/uploads/2022/05/medicina-general.jpeg") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5); /* oscurece la imagen */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-content {
+  color: white;
+  text-align: center;
+  max-width: 800px;
+  padding: 2rem;
+}
+
+.home-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.home-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn-home {
+  background-color: #007bff;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-home:hover {
+  background-color: #0056a3;
+}
